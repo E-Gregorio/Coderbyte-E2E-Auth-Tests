@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "types": ["node", "playwright"],
+      "target": "es2022",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "baseUrl": ".",
+      "paths": {
+        "@utils/*": ["utils/*"],
+        "@tests/*": ["tests/*"],
+        "@data/*": ["data/*"],
+        "@pages/*": ["pages/*"],
+        "@fixtures/*": ["fixtures/*"]
+      }
+    },
+    "include": ["tests/**/*.ts", "utils/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  
